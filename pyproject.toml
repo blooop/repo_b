@@ -1,5 +1,5 @@
 [project]
-name = "python_template"
+name = "repo_b"
 version = "0.1.0"
 
 authors = [{ name = "Austin Gregg-Smith", email = "blooop@gmail.com" }]
@@ -22,12 +22,12 @@ test = [
 ]
 
 [project.urls]
-Source = "https://github.com/blooop/python_template"
-Home = "https://github.com/blooop/python_template"
+Source = "https://github.com/blooop/repo_b"
+Home = "https://github.com/blooop/repo_b"
 
 
 [tool.flit.module]
-name = "python_template"
+name = "repo_b"
 
 [build-system]
 requires = ["flit_core >=3.2,<4"]

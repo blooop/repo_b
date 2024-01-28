@@ -123,7 +123,7 @@
 			"label": "rename template project name and commit",
 			"detail": "Replaces all instances of the template project name with a new name. ",
 			"type": "shell",
-			"command": "scripts/rename_project.sh ${input:new_project_name}; git commit -a -m 'rename project'"
+			"command": "scripts/rename_project.sh ${input:new_project_name}; git commit -a -m 'rename project';git commit -a -m 'rename project'"
 		},
 		{
 			"label": "first time setup of project",
